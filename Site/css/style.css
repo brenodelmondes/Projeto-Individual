@@ -8,7 +8,7 @@
 }
 body{
     height: 100vh;
-    background-color: #1C1C1C;
+    background-color: #ffffff;
     background-size: cover;
 }
 section{
@@ -76,10 +76,14 @@ button {cursor: pointer;}
     margin-top: 20px;
 
 }
-.nav-list li a:hover{
+
+/* .nav-list a:hover{
     border-bottom: 3px #a913ff solid;
     transform: scale(2, 0.5);
-}
+    cursor: default;
+    opacity: 0.7;
+} */
+
 .active {
     border-bottom: 3px #a913ff solid;
     transform: scale(2, 0.5);
@@ -89,7 +93,6 @@ button {cursor: pointer;}
 .auth-container {
     position: relative;
     border: 3px solid #a913ff;
-    border-radius: 15px;
     width: 180px;
     height: 35px;
     font-size: 18px;
@@ -156,17 +159,17 @@ button {cursor: pointer;}
 }
 
 .page-title h1{
-    color: white;
+    color: black;
     font-style: normal;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 12px;
 }
 
 .page-title div{
     width: 35%;
     height: 9px;
-    background: #0CE817;
+    background: #a913ff;
     border-radius: 20px;
     margin-bottom: 25px
 }

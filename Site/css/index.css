@@ -10,9 +10,7 @@ html {
 }
 
 header{
-    background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.678), transparent),
-    url('../img/BannerTrappers.png');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.377), transparent), url('../img/BannerTrappers.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,19 +21,20 @@ header{
 
 .index-nav{
     min-height: 13vh;
-
     background-color:transparent;
 }
+
 .index-nav a{
     color: white;
     text-decoration: none;
 }
+
 .index-nav .logo img{
     width: 130px;
 }
+
 .nav-list li{
     letter-spacing: 3px;
-
     margin-left: 16px;
     margin-right: 32px;
 }
@@ -43,34 +42,29 @@ header{
 #prop{
     background-repeat: no-repeat;
     background-size: cover;
-
     width: 100%;
     height: 100vh;
-
     display: flex;
     flex-direction:column;
     justify-content: space-around;  
-
-    background-color: linear-gradient(rgba(0, 0, 0, 0.458), rgb(255, 255, 255));
-
+    background-color: linear-gradient(rgba(0, 0, 0, 0.377), rgb(255, 255, 255));
     text-align: center;
 }
+
 #title{
     color: white;
-
     margin: auto;
-
-    font-size: 90px;
+    font-size: 95px;
     text-shadow: 30px;
     text-align: left;
-
     margin-left: 10%;
     margin-top: 10%;
 }
+
 #prop h3{
     text-align: left;
     text-shadow: 30px;
-    font-size: 40px;
+    font-size: 45px;
 
     color: white;
 
@@ -78,20 +72,19 @@ header{
     margin-left: 10%;
     margin-top: 0%;
 }
-.saibaMais{
-    box-shadow: 1px 1px 5px 5px #a913ff;
 
-    background-color: #a913ff;
-    color: black;
+.principal{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+   width:90%;
+   height: 300px;
+   border: 3px solid #a913ff;
+   border-radius: 3px;
+}
 
-    border: black;
-    border-radius: 20px;
-
-    width: 320px;
-    height: 80px;
-
-    font-size: 30px;
-
-    margin-left: 10%;
-    margin-bottom: 10%;
+.principal .texto{
+    padding:20px;
+   width: 45%;
+   height: 300px;
 }
