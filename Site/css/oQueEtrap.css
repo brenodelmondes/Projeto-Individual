@@ -51,21 +51,27 @@
     width: 180vh;
     height: 12vh;
     /* border: 3px solid #a913ff; */
-    border-radius: 3px;
+    border-radius: 1px;
 }
 
 .brasil .textoBrasil {
-    text-align: center;
+    display: flex;
+    text-align: justify;
+    margin-bottom: 12vh;
     width: 180vh;
     height: 30vh;
 }
 
 .brasil .imagemBrasil {
+    display: flex;
+    justify-content: center;
     background-position: center;
-    height: 50vh;
-    border: 3px solid #a913ff;
+    height: 70vh;
+    width: 80vw;
+    margin-top: 12vw;
+    /* border: 3px solid #a913ff; */
     border-radius: 3px;
-    background-image: url('../img/trappersAmericanos.jpg');
+    background-image: url('../img/RaffaNaio.jpg');
     background-repeat: no-repeat;
 }
 
@@ -75,6 +81,7 @@
 
 .brasil img {
     display: flex;
+    justify-content: center;
     width: 45vh;
     height: 20.5vh;
 }
