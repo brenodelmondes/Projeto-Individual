@@ -15,6 +15,7 @@ body{
 }
 section{
     min-height: 100vh;
+    padding-top: calc(8vh + 50px);
     padding-bottom: 20px;
 }
 section:first-of-type {

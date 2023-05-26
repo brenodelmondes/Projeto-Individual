@@ -49,7 +49,7 @@
     margin-left: 70px;
     margin-right: 70px;
     width: 180vh;
-    height: 12vh;
+    height: 200vh;
     /* border: 3px solid #a913ff; */
     border-radius: 1px;
 }
@@ -57,23 +57,23 @@
 .brasil .textoBrasil {
     display: flex;
     text-align: justify;
-    margin-bottom: 12vh;
+    margin-bottom: 15vh;
     width: 180vh;
-    height: 30vh;
+    height: 20vh;
 }
 
 .brasil .imagemBrasil {
     display: flex;
     justify-content: center;
     background-position: center;
-    height: 70vh;
-    width: 80vw;
+    height: 50%;
     margin-top: 12vw;
-    /* border: 3px solid #a913ff; */
     border-radius: 3px;
     background-image: url('../img/RaffaNaio.jpg');
     background-repeat: no-repeat;
 }
+
+.brasil
 
 .textoBrasil span {
     font-weight: 700;
