@@ -3,8 +3,8 @@
     justify-content: space-between;
     margin-bottom: 25vh;
     padding: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
     width: 190vh;
     height: 100%; 
     border-radius: 3px;
@@ -13,7 +13,7 @@
 .artistas .imagemVeigh {
     display: flex;
     background-position: center;
-    height: 70vh;
+    height: 75vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/veigh.jpg');
@@ -33,8 +33,8 @@
     justify-content: space-between;
     margin-bottom: 25vh;
     padding: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
     width: 190vh;
     height: 100%; 
     border-radius: 3px;
@@ -43,7 +43,7 @@
 .artistasMatue .imagemMatue {
     display: flex;
     background-position: center;
-    height: 85vh;
+    height: 92vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/matue.jpg');
@@ -63,8 +63,8 @@
     justify-content: space-between;
     margin-bottom: 25vh;
     padding: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
     width: 190vh;
     height: 100%; 
     border-radius: 3px;
@@ -73,7 +73,7 @@
 .artistasKyan .imagemKyan {
     display: flex;
     background-position: center;
-    height: 70vh;
+    height: 75vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/kyan.jpg');
@@ -82,6 +82,36 @@
 }
 
 .artistasKyan .textoArtistasKyan {
+    display: flex;
+    text-align: justify;
+    width: 50vw;
+    height: 20vh;
+}
+
+.artistasKayblack {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25vh;
+    padding: 20px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    width: 190vh;
+    height: 100%; 
+    border-radius: 3px;
+}
+
+.artistasKayblack .imagemKayblack {
+    display: flex;
+    background-position: center;
+    height: 70vh;
+    width: 70vh;
+    border-radius: 3px;
+    background-image: url('../img/kayblack.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artistasKayblack .textoArtistasKayblack {
     display: flex;
     text-align: justify;
     width: 50vw;
