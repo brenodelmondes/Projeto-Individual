@@ -10,8 +10,7 @@
     margin-left: 70px;
     margin-right: 70px;
     width: 190vh;
-    height: 10vh;
-/*     border: 3px solid #a913ff; */ 
+    height: 10vh; 
     border-radius: 3px;
 }
 
@@ -27,10 +26,10 @@
     background-position: center;
     height: 45vh;
     width: 85vh;
-    /* border: 3px solid #a913ff; */
-    border-radius: 1px;
+    border-radius: 3px;
     background-image: url('../img/trappersAmericanos.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .texto span {
@@ -50,30 +49,30 @@
     margin-right: 70px;
     width: 180vh;
     height: 200vh;
-    /* border: 3px solid #a913ff; */
-    border-radius: 1px;
 }
 
 .brasil .textoBrasil {
     display: flex;
-    text-align: justify;
+    text-align: start;
     margin-bottom: 15vh;
     width: 180vh;
-    height: 20vh;
+    height: 32vh;
 }
 
 .brasil .imagemBrasil {
     display: flex;
-    justify-content: center;
     background-position: center;
-    height: 50%;
-    margin-top: 12vw;
+    height: 40%;
+    width: 75%;
+    margin-top: 14vw;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 7vw;
     border-radius: 3px;
     background-image: url('../img/RaffaNaio.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.brasil
 
 .textoBrasil span {
     font-weight: 700;

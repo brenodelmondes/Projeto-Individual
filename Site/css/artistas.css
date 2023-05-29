@@ -1,0 +1,29 @@
+.artistas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25vh;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 190vh;
+    height: 100%; 
+    border-radius: 3px;
+}
+
+.artistas .imagemVeigh {
+    display: flex;
+    background-position: center;
+    height: 65vh;
+    width: 70vh;
+    border-radius: 3px;
+    background-image: url('../img/veigh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artistas .textoArtistas {
+    display: flex;
+    text-align: start;
+    width: 50vw;
+    height: 20vh;
+}
