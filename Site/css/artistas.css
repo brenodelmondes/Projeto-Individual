@@ -13,7 +13,7 @@
 .artistas .imagemVeigh {
     display: flex;
     background-position: center;
-    height: 65vh;
+    height: 70vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/veigh.jpg');
@@ -23,7 +23,67 @@
 
 .artistas .textoArtistas {
     display: flex;
-    text-align: start;
+    text-align: justify;
+    width: 50vw;
+    height: 20vh;
+}
+
+.artistasMatue {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25vh;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 190vh;
+    height: 100%; 
+    border-radius: 3px;
+}
+
+.artistasMatue .imagemMatue {
+    display: flex;
+    background-position: center;
+    height: 85vh;
+    width: 70vh;
+    border-radius: 3px;
+    background-image: url('../img/matue.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artistasMatue .textoArtistasMatue {
+    display: flex;
+    text-align: justify;
+    width: 50vw;
+    height: 20vh;
+}
+
+.artistasKyan {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25vh;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 190vh;
+    height: 100%; 
+    border-radius: 3px;
+}
+
+.artistasKyan .imagemKyan {
+    display: flex;
+    background-position: center;
+    height: 70vh;
+    width: 70vh;
+    border-radius: 3px;
+    background-image: url('../img/kyan.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artistasKyan .textoArtistasKyan {
+    display: flex;
+    text-align: justify;
     width: 50vw;
     height: 20vh;
 }

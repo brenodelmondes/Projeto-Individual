@@ -53,7 +53,7 @@
 
 .brasil .textoBrasil {
     display: flex;
-    text-align: start;
+    text-align: justify;
     margin-bottom: 15vh;
     width: 180vh;
     height: 32vh;
