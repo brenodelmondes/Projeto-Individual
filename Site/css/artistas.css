@@ -103,7 +103,7 @@
 .artistasKayblack .imagemKayblack {
     display: flex;
     background-position: center;
-    height: 70vh;
+    height: 87vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/kayblack.jpg');
@@ -112,6 +112,36 @@
 }
 
 .artistasKayblack .textoArtistasKayblack {
+    display: flex;
+    text-align: justify;
+    width: 50vw;
+    height: 20vh;
+}
+
+.artistasL7 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25vh;
+    padding: 20px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    width: 190vh;
+    height: 100%; 
+    border-radius: 3px;
+}
+
+.artistasL7 .imagemL7 {
+    display: flex;
+    background-position: center;
+    height: 75vh;
+    width: 70vh;
+    border-radius: 3px;
+    background-image: url('../img/l7nnon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artistasL7 .textoArtistasL7 {
     display: flex;
     text-align: justify;
     width: 50vw;
