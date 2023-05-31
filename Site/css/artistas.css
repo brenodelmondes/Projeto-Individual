@@ -147,3 +147,63 @@
     width: 50vw;
     height: 20vh;
 }
+
+.artistasWiu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25vh;
+    padding: 20px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    width: 190vh;
+    height: 100%; 
+    border-radius: 3px;
+}
+
+.artistasWiu .imagemWiu {
+    display: flex;
+    background-position: inherit;
+    height: 70vh;
+    width: 70vh;
+    border-radius: 3px;
+    background-image: url('../img/wiu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artistasWiu .textoArtistasWiu {
+    display: flex;
+    text-align: justify;
+    width: 50vw;
+    height: 20vh;
+}
+
+.artistasTeto {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25vh;
+    padding: 20px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    width: 190vh;
+    height: 100%; 
+    border-radius: 3px;
+}
+
+.artistasTeto .imagemTeto {
+    display: flex;
+    background-position: center;
+    height: 95vh;
+    width: 70vh;
+    border-radius: 3px;
+    background-image: url('../img/teto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artistasTeto .textoArtistasTeto {
+    display: flex;
+    text-align: justify;
+    width: 50vw;
+    height: 20vh;
+}
