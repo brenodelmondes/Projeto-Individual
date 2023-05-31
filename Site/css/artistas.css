@@ -103,7 +103,7 @@
 .artistasKayblack .imagemKayblack {
     display: flex;
     background-position: center;
-    height: 87vh;
+    height: 92vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/kayblack.jpg');
@@ -133,7 +133,7 @@
 .artistasL7 .imagemL7 {
     display: flex;
     background-position: center;
-    height: 75vh;
+    height: 80vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/l7nnon.jpg');
@@ -163,7 +163,7 @@
 .artistasWiu .imagemWiu {
     display: flex;
     background-position: inherit;
-    height: 70vh;
+    height: 75vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/wiu.jpg');
@@ -193,7 +193,7 @@
 .artistasTeto .imagemTeto {
     display: flex;
     background-position: center;
-    height: 95vh;
+    height: 100vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/teto.jpg');
@@ -202,6 +202,36 @@
 }
 
 .artistasTeto .textoArtistasTeto {
+    display: flex;
+    text-align: justify;
+    width: 50vw;
+    height: 20vh;
+}
+
+.artistasCabelinho {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25vh;
+    padding: 20px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    width: 190vh;
+    height: 100%; 
+    border-radius: 3px;
+}
+
+.artistasCabelinho .imagemCabelinho {
+    display: flex;
+    background-position: center;
+    height: 80vh;
+    width: 70vh;
+    border-radius: 3px;
+    background-image: url('../img/cabelinho.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artistasCabelinho .textoArtistasCabelinho {
     display: flex;
     text-align: justify;
     width: 50vw;
