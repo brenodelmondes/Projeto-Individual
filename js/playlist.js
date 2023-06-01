@@ -1,0 +1,1 @@
+const vt_playlist = ['Melhor só','Fim de semana no rio'];

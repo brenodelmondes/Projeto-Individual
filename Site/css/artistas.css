@@ -223,7 +223,7 @@
 .artistasCabelinho .imagemCabelinho {
     display: flex;
     background-position: center;
-    height: 95vh;
+    height: 92vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/cabelinho.jpg');
@@ -253,7 +253,7 @@
 .artistasPoze .imagemPoze {
     display: flex;
     background-position: center;
-    height: 80vh;
+    height: 83vh;
     width: 70vh;
     border-radius: 3px;
     background-image: url('../img/poze.jpg');
