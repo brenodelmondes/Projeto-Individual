@@ -33,6 +33,17 @@ create table aquario (
 	descricao VARCHAR(300)
 );
 
+INSERT INTO aquario VALUES
+(null, 'primeiro aquario');
+
+INSERT INTO medida VALUES
+(null, 15, 23, 40, 10, 1, '2023-06-06 12:00', 1),
+(null, 20, 35, 40, 10, 1, '2023-06-06 20:00', 1),
+(null, 40, 22, 40, 10, 1, '2023-06-06 10:00', 1),
+(null, 20, 12, 40, 10, 1, '2023-06-06 22:00', 1),
+(null, 30, 10, 40, 10, 1, '2023-06-06 22:00', 1),
+(null, 12, 50, 40, 10, 1, '2023-06-06 19:00', 1),
+(null, 60, 40, 40, 10, 1, '2023-06-06 12:00', 1);
 /* esta tabela deve estar de acordo com o que está em INSERT de sua API do arduino - dat-acqu-ino */
 
 create table medida (

@@ -16,7 +16,7 @@
     height: 75vh;
     width: 70vh;
     border-radius: 3px;
-    background-image: url('../img/veigh.jpg');
+    background-image: url('../assets/img/veigh.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -46,7 +46,7 @@
     height: 92vh;
     width: 70vh;
     border-radius: 3px;
-    background-image: url('../img/matue.jpg');
+    background-image: url('../assets/img/matue.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -76,7 +76,7 @@
     height: 75vh;
     width: 70vh;
     border-radius: 3px;
-    background-image: url('../img/kyan.jpg');
+    background-image: url('../assets/img/kyan.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -106,7 +106,7 @@
     height: 92vh;
     width: 70vh;
     border-radius: 3px;
-    background-image: url('../img/kayblack.jpg');
+    background-image: url('../assets/img/kayblack.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -136,7 +136,7 @@
     height: 80vh;
     width: 70vh;
     border-radius: 3px;
-    background-image: url('../img/l7nnon.jpg');
+    background-image: url('../assets/img/l7nnon.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -166,7 +166,7 @@
     height: 75vh;
     width: 70vh;
     border-radius: 3px;
-    background-image: url('../img/wiu.jpg');
+    background-image: url('../assets/img/wiu.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -196,7 +196,7 @@
     height: 100vh;
     width: 70vh;
     border-radius: 3px;
-    background-image: url('../img/teto.jpg');
+    background-image: url('../assets/img/teto.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -226,7 +226,7 @@
     height: 92vh;
     width: 70vh;
     border-radius: 3px;
-    background-image: url('../img/cabelinho.jpg');
+    background-image: url('../assets/img/cabelinho.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -256,7 +256,7 @@
     height: 83vh;
     width: 70vh;
     border-radius: 3px;
-    background-image: url('../img/poze.jpg');
+    background-image: url('../assets/img/poze.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
