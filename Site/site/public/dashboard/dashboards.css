@@ -2,7 +2,7 @@
 
 *,
 body {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .label-captura {
@@ -43,7 +43,7 @@ body {
 .dash-right .avisos .div-form textarea {
   width: 100%;
   /* color: #E6005A; */
-  border: 3px solid #e6005a;
+  border: 3px solid #a913ff;
   background-color: white;
   border-radius: 5px;
 }
@@ -57,7 +57,7 @@ body {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: #e6005a;
+  background-color: #a913ff;
   width: 120px;
 }
 
@@ -70,7 +70,7 @@ body {
   font-size: 14px;
   padding: 5px 8px;
   color: white;
-  background-color: #e6005a;
+  background-color: #a913ff;
   width: 80px;
 }
 
@@ -81,7 +81,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  border-bottom: 3px solid #e6005a;
+  border-bottom: 3px solid #a913ff;
   padding: 20px;
 }
 
@@ -132,11 +132,58 @@ body {
   margin-top: 30px;
 }
 
-.perigo-frio {
+.card-hits{
+  margin-top: 5vh;
+  border-radius: 10px;
+  border: solid purple;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95vh;
+  text-align: center;
+  height: 80vh;
+  justify-content: center;
+  font-size: 20px;
+}
+
+button{
+  margin-bottom: 10px;
+  margin-left: 4%;
+  border-radius: 3px;
+  border: solid #fff;
+  background-color: #fff;
+}
+
+#ipt_nomeMusica::-webkit-input-placeholder{
+  color:#000;
+}
+
+.card-musica{
+  margin-top: 4vh;
+  border: 3px solid purple;
+  height: 50vh;
+  width: 90vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 28vh !important;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.menos {
   background-color: #5c6bc0;
 }
 
-.perigo-quente {
+.mais {
   background-color: #ff7043;
 }
 
@@ -180,6 +227,27 @@ body {
   justify-content: right;
   background-color: #212124;
   font-size: 20px;
+}
+
+.card-mais-menos {
+  margin-top: 20vh;
+  text-align: center;
+  height: 180px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.musica-mais {
+  height: 40vh;
+  width: 50vh;
+  background-color: green;
+}
+
+.musica-menos {
+  height: 40vh;
+  width: 50vh;
+  background-color: red;
 }
 
 .card p {
@@ -238,7 +306,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   padding: 10px 15px;
-  color: #e6005a;
+  color: #a913ff;
   background-color: white;
   margin: 5px;
   border-radius: 3px;
@@ -246,11 +314,11 @@ body {
 
 .btn-pink {
   color: white;
-  background-color: #e6005a;
+  background-color: #a913ff;
 }
 
 .btn-white {
-  color: #e6005a;
+  color: #a913ff;
   background-color: white;
 
 }
