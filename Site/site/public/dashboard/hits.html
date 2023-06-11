@@ -59,12 +59,39 @@
 
         <div class="dash">
             <div class="cards">
+                <div class="card_erro" id="cardErro">
+                    <span id="mensagem_erro"></span>
+                </div>
                 <div class="card-hits">
                     <input id="ipt_nomeMusica" placeholder="Digite o nome da música">
                     <button onclick="ouvir()">Ouça agora</button>
                     <div class="card-musica">
-                        <div style="display: block;" id="teto">
+                        <div style="display: none;" id="minhaVida">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/XxE7bZlyiNw"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div style="display: none;" id="dezMil">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/sRSc8trWDd0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div style="display: none;" id="meEngana">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4Qta7cMSXc4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div style="display: none;" id="maturidade">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/K9d5Tfdevt8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div style="display: block;" id="gorila">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BUL7zecHZjA"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe>
@@ -93,13 +120,14 @@
 <script>
 
     function ouvir() {
-        var nomeMusica = ipt_nomeMusica;
+        var nomeMusica = ipt_nomeMusica.value;
 
         if (nomeMusica == '') {
-            alert(`Informe o nome de uma música válida!`);
-        } else if (nomeMusica == 'Minha vida é um filme') {
-            teto.style.display = 'block';
+            alert(`O campo não deve estar vazio`);
         }
+        //  else if (nomeMusica == 'Minha vida é um filme') {
+        //     minhaVida.style.display = 'block';
+        // }
     }
 
 </script>
