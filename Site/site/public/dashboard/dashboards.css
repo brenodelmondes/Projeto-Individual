@@ -94,7 +94,7 @@ body {
 }
 
 .div-results .feed-container {
-  background-color: #212124;
+  background-color: #000000;
   border-radius: 5px;
   margin-bottom: 80px;
 }
@@ -111,7 +111,7 @@ body {
 /* pagina graficos */
 
 .dash-header {
-  background-color: #212124;
+  background-color: #000000;
 }
 
 .dash {
@@ -119,7 +119,7 @@ body {
   position: relative;
   top: 0;
   left: 20%;
-  background-color: #161618;
+  background-color: #000000;
   height: 100vh;
   overflow: auto;
 }
@@ -135,8 +135,8 @@ body {
 .card-hits{
   margin-top: 5vh;
   border-radius: 10px;
-  border: solid purple;
-  background-color: #fff;
+  border: solid #a913ff;
+  background-color: #ffffff00;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -151,17 +151,18 @@ button{
   margin-bottom: 10px;
   margin-left: 4%;
   border-radius: 3px;
-  border: solid #fff;
-  background-color: #fff;
+  border: solid #ffffff00;
+  background-color: #ffffff00;
+  color: #fff;
 }
 
 #ipt_nomeMusica::-webkit-input-placeholder{
-  color:#000;
+  color:#fff;
 }
 
 .card-musica{
   margin-top: 4vh;
-  border: 3px solid purple;
+  border: 3px solid rgba(128, 0, 128, 0);
   height: 50vh;
   width: 90vh;
   position: relative;
@@ -173,10 +174,12 @@ button{
 input {
   width: 28vh !important;
   margin-bottom: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff00;
   padding: 10px;
   text-align: center;
   border-radius: 10px;
+  background-color: #ffffff00;
+  color: #fff;
 }
 
 .menos {
@@ -278,7 +281,6 @@ input {
   height: 30%;
   border-radius: 50px;
   margin-top: 6%;
-  /* background-color: #c7c7c7; */
 }
 
 .btns-dash {

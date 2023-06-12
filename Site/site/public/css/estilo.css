@@ -83,8 +83,9 @@
 
 .card {
   width: 30%;
-  background-color: #e5e5e5;
+  background-color: #00000064;
   border-radius: 10px;
+  border: solid #a913ff;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -98,11 +99,11 @@
 }
 
 .card-login {
-  height: 75%;
+  height: 70%;
 }
 
 .card h2 {
-  margin: 0;
+  margin-left: 2vh;
   font-size: 25px;
   display: flex;
   justify-content: center;

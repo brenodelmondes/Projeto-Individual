@@ -78,7 +78,7 @@ input {
 }
 
 .btn {
-  font-family: "Barlow", sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 0;
   border-radius: 5px;
   font-weight: 600;
@@ -125,9 +125,8 @@ input {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border-right: 3px solid #fff;
-  background-color: #212124;
-  /* border: 3px solid pink; */
+  border-right: 3px solid #a913ff;
+  background-color: #000000;
 }
 
 .dash-right {
@@ -201,14 +200,4 @@ input {
   padding: 10px 15px;
   margin-bottom: 100px;
   cursor: pointer;
-}
-
-/* pagina extra - simulador */
-.simulador {
-  color: white;
-
-}
-
-.simulador .container {
-  flex-direction: column
 }
