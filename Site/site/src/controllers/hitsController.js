@@ -3,7 +3,7 @@ var hitsModel = require("../models/hitsModel");
 function ouvir(req, res) {
     var ipt_nomeMusica = req.params.nomeMusica;
     
-    hitsModel.buscarMusica(nomeMusica)
+    hitsModel.buscarMusica(ipt_nomeMusica)
         .then(function (resultado) {
             if (resultado.length > 0) {
                 console.log(resultado)

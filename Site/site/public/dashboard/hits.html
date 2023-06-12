@@ -121,33 +121,33 @@
 
         if (nomeMusica == '') {
             alert(`O campo não deve estar vazio`);
-        }else{
-        fetch(`/hits/ouvir/'${ipt_nomeMusica.value}'`, { cache: 'no-store' }).then(function (response) {
-            if (response.ok) {
-                response.json().then(function (resposta) {
-                    console.log(`Dados recebidos: ${JSON.stringify(resposta)}`);
+        } else {
+            fetch(`/hits/ouvir/${ipt_nomeMusica.value}`, { cache: 'no-store' }).then(function (response) {
+                if (response.ok) {
+                    response.json().then(function (resposta) {
+                        console.log(`Dados recebidos: ${JSON.stringify(resposta)}`);
 
-                    cardMusica.innerHTML = ``;
-                    for(let i = 0; i < resposta.length; i++){
-                    cardMusica.innerHTML += `<div style="display: block;" id="minhaVida">
+                        cardMusica.innerHTML = ``;
+                        for (let i = 0; i < resposta.length; i++) {
+                            cardMusica.innerHTML += `<div style="display: block;" id="minhaVida">
                             <iframe width="560" height="315" src="${resposta[i].urlMusica}"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe>
                         </div>`;
-                    }
+                        }
 
+                    });
+                } else {
+                    console.error('Nenhum dado encontrado ou erro na API');
+                }
+            })
+                .catch(function (error) {
+                    console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
                 });
-            } else {
-                console.error('Nenhum dado encontrado ou erro na API');
-            }
-        })
-            .catch(function (error) {
-                console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
-            });
         }
     }
-    
+
     //  else if (nomeMusica == 'Minha vida é um filme') {
     //     minhaVida.style.display = 'block';
     // }
