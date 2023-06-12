@@ -47,7 +47,7 @@
         </div>
 
         <div class="dash">
-            <div class="cards" id="lista">
+            <div class="cards">
                 <div class="card-hits">
                     <input id="ipt_nomeMusica" placeholder="Digite o nome da música">
                     <button onclick="ouvir()">Ouça agora</button>
@@ -84,12 +84,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="listaMusicas">
-                    <span class="material-symbols-outlined" onclick="listaMusica()">
+                <div class="listaMusicas" id="lista">
+                    <button class="material-symbols-outlined" onclick="listaMusica()" id="listarMusica">
                         mic_external_on
-                    </span>
+                    </button>
                 </div>
             </div>
+           
         </div>
 
 
@@ -129,15 +130,26 @@
                 });
         }
     }
-
+    
+    var contador = 1;
     function listaMusica(){
-        lista.innerHTML = `
-        1- 10K
-        2- Minha vida é um filme
-        3- Gorila roxo
-        4- Maturidade
-        5- Engana dizendo que ama
+     if(contador % 2 != 0){
+        lista.innerHTML += `
+        1- 10K<br>
+        2- Minha vida é um filme<br>
+        3- Gorila roxo<br>
+        4- Maturidade<br>
+        5- Engana dizendo que ama<br>
         `;
+        contador++;
+     } else {
+        lista.innerHTML = `
+        <button class="material-symbols-outlined" onclick="listaMusica()" id="listarMusica">
+                        mic_external_on
+                    </button>
+        `;
+        contador++;
+     }
     }
 
 </script>
