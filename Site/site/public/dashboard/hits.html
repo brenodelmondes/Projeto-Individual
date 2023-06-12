@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="../css/style2.css">
     <link rel="stylesheet" href="dashboards.css">
 
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <script src="../js/funcoes.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -26,7 +29,7 @@
             <h1>Its a Trap</h1>
 
             <div class="hello">
-                <h3>Olá, <span id="b_usuario">usuário</span>!</h3>
+                <h3>Olá <span id="b_usuario">usuário</span>!</h3>
             </div>
             <div class="btn-nav">
                 <h3>Hits</h3>
@@ -34,7 +37,7 @@
 
             <div class="btn-nav-white">
                 <a href="./dashboard.html">
-                    <h3>Gráficos</h3>
+                    <h3>Gráfico</h3>
                 </a>
             </div>
             <div class="btn-logout" onclick="limparSessao()">
@@ -44,7 +47,7 @@
         </div>
 
         <div class="dash">
-            <div class="cards">
+            <div class="cards" id="lista">
                 <div class="card-hits">
                     <input id="ipt_nomeMusica" placeholder="Digite o nome da música">
                     <button onclick="ouvir()">Ouça agora</button>
@@ -81,19 +84,13 @@
                         </div>
                     </div>
                 </div>
+                <div class="listaMusicas">
+                    <span class="material-symbols-outlined" onclick="listaMusica()">
+                        mic_external_on
+                    </span>
+                </div>
             </div>
-            <!-- <div class="card-mais-menos">
-                <div class="musica-mais">
-                    <h1>Música mais ouvida</h1>
-                    <p id="mais_ouvida"> - Pessoas</p>
-                    <div class="cor-alerta" id="card_1"></div>
-                </div>
-                <div class="musica-menos">
-                    <h1>Música menos ouvida</h1>
-                    <p id="menos_ouvida"> - Pessoas</p>
-                    <div class="cor-alerta" id="card_2"></div>
-                </div>
-            </div> -->
+        </div>
 
 
 </body>
@@ -133,5 +130,14 @@
         }
     }
 
+    function listaMusica(){
+        lista.innerHTML = `
+        1- 10K
+        2- Minha vida é um filme
+        3- Gorila roxo
+        4- Maturidade
+        5- Engana dizendo que ama
+        `;
+    }
 
 </script>
