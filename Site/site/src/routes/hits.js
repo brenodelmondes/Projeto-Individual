@@ -7,4 +7,10 @@ router.get("/ouvir/:nomeMusica", function (req, res) {
     hitsController.ouvir(req, res);
 });
 
+router.get("/listar", function (req, res) {
+    hitsController.listar(req, res);
+});
+
+
+
 module.exports = router;

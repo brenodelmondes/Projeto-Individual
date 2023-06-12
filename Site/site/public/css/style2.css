@@ -23,12 +23,12 @@ body {
   font-size: 15px;
 }
 
-.footer .container {
+.footer .container_dois {
   justify-content: center;
   text-align: center;
 }
 
-.footer .container .version {
+.footer .container_dois .version {
   font-size: 12px;
 }
 

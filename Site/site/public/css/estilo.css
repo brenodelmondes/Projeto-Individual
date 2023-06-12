@@ -9,7 +9,7 @@
   min-height: 13vh;
 }
 
-.container {
+.container_dois {
   display: flex;
   width: 80%;
   margin: auto;
@@ -21,19 +21,19 @@
   background-size: cover;
 }
 
-.banner .container {
+.banner .container_dois {
   justify-content: center;
   align-items: center;
   height: 100%;
 }
 
-.banner .container p {
+.banner .container_dois p {
   font-size: 36px;
   color: white;
   width: 280px;
 }
 
-.banner .container span {
+.banner .container_dois span {
   font-weight: 800;
 }
 
@@ -42,7 +42,7 @@
   display: flex;
 }
 
-.social .container {
+.social .container_dois {
   justify-content: center;
 }
 
@@ -50,7 +50,7 @@
   width: 170px;
 }
 
-.social .container .boxes {
+.social .container_dois .boxes {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -75,7 +75,7 @@
   background-size: cover;
 }
 
-.login .container {
+.login .container_dois {
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -196,14 +196,14 @@
   margin: 0;
 }
 
-.footer .container {
+.footer .container_dois {
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 100%;
 }
 
-.footer .container .version {
+.footer .container_dois .version {
   font-size: 12px;
   font-weight: 800;
 }

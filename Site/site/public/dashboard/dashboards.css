@@ -17,17 +17,17 @@ body {
   font-family: "Exo 2", sans-serif;
 }
 
-.dash-right .avisos .container {
+.dash-right .avisos .container_dois {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.dash-right .avisos .container .div-form {
+.dash-right .avisos .container_dois .div-form {
   width: 100%;
 }
 
-.dash-right .avisos .container .div-form #form_postagem {
+.dash-right .avisos .container_dois .div-form #form_postagem {
   width: 100%;
 }
 
@@ -240,7 +240,7 @@ input {
   justify-content: space-evenly;
   font-size: 20px;
 }
-
+/* 
 .musica-mais {
   height: 40vh;
   width: 50vh;
@@ -251,7 +251,7 @@ input {
   height: 40vh;
   width: 50vh;
   background-color: red;
-}
+} */
 
 .card p {
   margin: 0;
@@ -291,9 +291,11 @@ input {
 }
 
 .graph {
-  width: 80%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   margin: auto;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .tituloGraficos {
@@ -303,7 +305,7 @@ input {
 }
 
 .btn-chart {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 0;
   font-weight: 600;
   font-size: 18px;
@@ -342,6 +344,6 @@ input {
 }
 
 canvas {
-  width: 100% !important;
-  height: 100% !important;
+  width: 70% !important;
+  height: 60% !important;
 }
