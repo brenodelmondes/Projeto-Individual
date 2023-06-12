@@ -3,7 +3,7 @@ var router = express.Router();
 
 var hitsController = require("../controllers/hitsController");
 
-router.get("/ouvir/:ipt_nomeMusica", function (req, res) {
+router.get("/ouvir/:ipt_nomeMusica.value", function (req, res) {
     
 
     hitsController.ouvir(req, res);

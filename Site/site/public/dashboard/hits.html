@@ -2,11 +2,11 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="shortcut icon" href="../assets/icon/favicon2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/logoTrap.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AquaTech | Tempo Real</title>
+    <title>Its a Trap - Hits</title>
 
     <link rel="stylesheet" href="../css/style2.css">
     <link rel="stylesheet" href="dashboards.css">
@@ -59,13 +59,10 @@
 
         <div class="dash">
             <div class="cards">
-                <div class="card_erro" id="cardErro">
-                    <span id="mensagem_erro"></span>
-                </div>
                 <div class="card-hits">
                     <input id="ipt_nomeMusica" placeholder="Digite o nome da música">
                     <button onclick="ouvir()">Ouça agora</button>
-                    <div class="card-musica">
+                    <div class="card-musica" id="cardMusica">
                         <div style="display: none;" id="minhaVida">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/XxE7bZlyiNw"
                                 title="YouTube video player" frameborder="0"
@@ -90,7 +87,7 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe>
                         </div>
-                        <div style="display: block;" id="gorila">
+                        <div style="display: none;" id="gorila">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/BUL7zecHZjA"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -124,10 +121,34 @@
 
         if (nomeMusica == '') {
             alert(`O campo não deve estar vazio`);
-        }
-        //  else if (nomeMusica == 'Minha vida é um filme') {
-        //     minhaVida.style.display = 'block';
-        // }
-    }
+        }else{
+        fetch(`/hits/ouvir/'${ipt_nomeMusica.value}'`, { cache: 'no-store' }).then(function (response) {
+            if (response.ok) {
+                response.json().then(function (resposta) {
+                    console.log(`Dados recebidos: ${JSON.stringify(resposta)}`);
 
+                    cardMusica.innerHTML = ``;
+                    for(let i = 0; i < resposta.length; i++){
+                    cardMusica.innerHTML += `<div style="display: block;" id="minhaVida">
+                            <iframe width="560" height="315" src="${resposta[i].urlMusica}"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>`;
+                    }
+
+                });
+            } else {
+                console.error('Nenhum dado encontrado ou erro na API');
+            }
+        })
+            .catch(function (error) {
+                console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
+            });
+        }
+    }
+    
+    //  else if (nomeMusica == 'Minha vida é um filme') {
+    //     minhaVida.style.display = 'block';
+    // }
 </script>
